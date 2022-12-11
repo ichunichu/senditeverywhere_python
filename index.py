@@ -69,7 +69,7 @@ body = {
                 'privacyStatus': 'unlisted'
             }
         }
-
+#https://developers.google.com/identity/protocols/oauth2/web-server#httprest_3
 with open("test.mp4",mode="rb") as file:
     result = file.read()
     insert_request = client.videos().insert(
